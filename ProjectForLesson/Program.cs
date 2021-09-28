@@ -42,7 +42,7 @@ namespace ProjectForLesson
             Console.WriteLine();
 
             Console.WriteLine("Задание №5");
-            for (int i = 4, j = 40; i - j != 40; i++, j--)
+            for (int i = 4, j = 40; i - j != 42; i++, j--)
             {
                 Console.WriteLine(i + " " + j);
             }
