@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectForLesson
+namespace pz_5
 {
     class Program
     {
