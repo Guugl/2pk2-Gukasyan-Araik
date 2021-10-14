@@ -27,6 +27,16 @@ namespace pz_6
 
             Console.WriteLine(result);
 
+            int ppp = -3;
+
+            do
+            {
+                Console.WriteLine(ppp);
+                ppp += 2;
+            } while (ppp < 10);
+
+            
+
         }
     }
 }
