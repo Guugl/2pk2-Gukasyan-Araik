@@ -14,6 +14,10 @@ namespace pz_10
 
 
 
+
+
+
+
             int[][] nums = new int[5][];
 
             for (int i = 0; i < 5; i++)
@@ -78,6 +82,8 @@ namespace pz_10
                 Console.WriteLine();
             }
 
+            Console.ReadLine();
+
         }
 
         public static void SwapValues<T>(this T[] source, int index1, int index2)
@@ -86,6 +92,7 @@ namespace pz_10
             source[index1] = source[index2];
             source[index2] = temp;
         }
+
 
     }
 }
